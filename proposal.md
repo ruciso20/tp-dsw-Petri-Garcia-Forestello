@@ -17,9 +17,7 @@ Permite gestionar usuarios, productos, realizar pedidos y consultar el historial
 Con enfoque en una experiencia de usuario sencilla .
 
 ### Modelo
-![imagen del modelo](file:///home/peto/Descargas/tp-dsw.svg)
-
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
+[![imagen del modelo](file:///home/peto/Descargas/tp-dsw.svg)](https://mermantic.net/share.html?id=027369a228239539)
 
 ## Alcance Funcional 
 
