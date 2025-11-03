@@ -25,8 +25,6 @@ Con enfoque en una experiencia de usuario sencilla .
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
-
 Regularidad:
 | Req | Detalle |
 |:---|:---|
@@ -37,19 +35,8 @@ Regularidad:
 
 
 Adicionales para Aprobación
-|Req|Detalle|
-|:-|:-|
+| Req | Detalle |
+|:---|:---|
 |CRUD ||
 |CUU/Epic||
-
-
-### Alcance Adicional Voluntario
-
-*Nota*: El Alcance Adicional Voluntario es opcional, pero ayuda a que la funcionalidad del sistema esté completa y será considerado en la nota en función de su complejidad y esfuerzo.
-
-|Req|Detalle|
-|:-|:-|
-|Listados ||
-|CUU/Epic||
 |Otros|1. Impresion por PDF|
-
