@@ -17,7 +17,7 @@ Permite gestionar usuarios, productos, realizar pedidos y consultar el historial
 Con enfoque en una experiencia de usuario sencilla .
 
 ### Modelo
-![imagen del modelo]()
+![imagen del modelo](file:///home/peto/Descargas/tp-dsw.svg)
 
 *Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
 
@@ -30,13 +30,16 @@ Con enfoque en una experiencia de usuario sencilla .
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD de Clientes: manejo de datos de clientes (nombre, email, teléfono, etc.).|
-             2. CRUD de Productos: gestión de productos (nombre, precio, stock, etc.).|
-             3. CRUD de Usuarios: creación, autenticación y gestión de roles (Admin, Vendedor, Cliente).|
-             4. CRUD de Pedidos: registro de pedidos realizados por los clientes, incluyendo productos seleccionados.|
-|CRUD dependiente|1. CRUD Líneas de Pedido:  {depende de} CRUD Pedidos.2. CRUD Pedidos  {depende de} CRUD Clientes y  CRUD Productos.|
-|Listado + detalle| 1. Listado de Clientes: filtro por nombre o email, muestra un listado de clientes.2. Listado de Productos: filtro por nombre o precio, muestra productos disponibles.3. Listado de Pedidos: filtro por fecha y estado, muestra los pedidos realizados.|
-|CUU/Epic|1. Gestión de Clientes y Pedidos|
+| **CRUD Simple** | Clientes | Manejo de datos (nombre, email, teléfono, etc.) |
+| | Productos | Gestión (nombre, precio, stock, etc.) |
+| | Usuarios | Creación, autenticación y roles (Admin, Vendedor, Cliente) |
+| | Pedidos | Registro de pedidos con productos seleccionados |
+| **CRUD Dependiente** | CRUD Líneas de Pedido | {depende de} CRUD **Pedidos** |
+| | CRUD Pedidos | {depende de} CRUD **Clientes** y CRUD **Productos** |
+| **Listado + Detalle** | Clientes | Filtro por nombre/email |
+| | Productos | Filtro por nombre/precio |
+| | Pedidos | Filtro por fecha/estado |
+| **CUU/Épica** | Gestión de Clientes y Pedidos |
 
 
 Adicionales para Aprobación
