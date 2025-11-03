@@ -45,8 +45,8 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1.|
-|CUU/Epic|1. Gestión de Clientes y Pedidos|
+|CRUD ||
+|CUU/Epic||
 
 
 ### Alcance Adicional Voluntario
@@ -55,7 +55,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
+|Listados ||
+|CUU/Epic||
 |Otros|1. Impresion por PDF|
 
