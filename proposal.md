@@ -28,18 +28,12 @@ Con enfoque en una experiencia de usuario sencilla .
 *Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
 
 Regularidad:
-|Req|Detalle|
-|:-|:-|
-| **CRUD Simple** | Clientes | Manejo de datos (nombre, email, teléfono, etc.) |
-| | Productos | Gestión (nombre, precio, stock, etc.) |
-| | Usuarios | Creación, autenticación y roles (Admin, Vendedor, Cliente) |
-| | Pedidos | Registro de pedidos con productos seleccionados |
-| **CRUD Dependiente** | CRUD Líneas de Pedido | {depende de} CRUD **Pedidos** |
-| | CRUD Pedidos | {depende de} CRUD **Clientes** y CRUD **Productos** |
-| **Listado + Detalle** | Clientes | Filtro por nombre/email |
-| | Productos | Filtro por nombre/precio |
-| | Pedidos | Filtro por fecha/estado |
-| **CUU/Épica** | Gestión de Clientes y Pedidos |
+| Req | Detalle |
+|:---|:---|
+| CRUD simple | 1. **CRUD de Clientes**: manejo de datos de clientes (nombre, email, teléfono, etc.).<br>2. **CRUD de Productos**: gestión de productos (nombre, precio, stock, etc.).<br>3. **CRUD de Usuarios**: creación, autenticación y gestión de roles (Admin, Vendedor, Cliente).<br>4. **CRUD de Pedidos**: registro de pedidos realizados por los clientes, incluyendo productos seleccionados. |
+| CRUD dependiente | 1. **CRUD Líneas de Pedido**: ➡ Depende de CRUD Pedidos.<br>2. **CRUD Pedidos**: ➡ Depende de CRUD Clientes y CRUD Productos. |
+| Listado + detalle | 1. **Listado de Clientes**: filtro por nombre o email, muestra un listado de clientes.<br>2. **Listado de Productos**: filtro por nombre o precio, muestra productos disponibles.<br>3. **Listado de Pedidos**: filtro por fecha y estado, muestra los pedidos realizados. |
+| CUU/Epic | 1. **Gestión de Clientes y Pedidos** |
 
 
 Adicionales para Aprobación
