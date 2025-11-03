@@ -2,16 +2,19 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* 51462 - Garcia Forestello, Joaquin
+* 50328 - Petri, Guillermo
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
-* [backend app](http://hyperlinkToGihubOrGitlab)
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
+* [frontend app](https://github.com/ValentinR19/tp-dsw-frontend)
+* [backend app](https://github.com/ValentinR19/tp-dsw-backend)
+
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+Sistema CRM para la gestión de clientes, productos y pedidos, orientado a la optimización de ventas . 
+Permite gestionar usuarios, productos, realizar pedidos y consultar el historial de ventas.
+Con enfoque en una experiencia de usuario sencilla .
 
 ### Modelo
 ![imagen del modelo]()
@@ -27,17 +30,23 @@
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD de Clientes: manejo de datos de clientes (nombre, email, teléfono, etc.).
+             2. CRUD de Productos: gestión de productos (nombre, precio, stock, etc.).
+             3. CRUD de Usuarios: creación, autenticación y gestión de roles (Admin, Vendedor, Cliente).
+             4. CRUD de Pedidos: registro de pedidos realizados por los clientes, incluyendo productos seleccionados.|
+|CRUD dependiente|1. CRUD Líneas de Pedido:  {depende de} CRUD Pedidos.
+                  2. CRUD Pedidos  {depende de} CRUD Clientes y  CRUD Productos.|
+|Listado<br>+<br>detalle| 1. Listado de Clientes: filtro por nombre o email, muestra un listado de clientes.
+                          2. Listado de Productos: filtro por nombre o precio, muestra productos disponibles.
+                          3. Listado de Pedidos: filtro por fecha y estado, muestra los pedidos realizados.|
+|CUU/Epic|1. Gestión de Clientes y Pedidos|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1.|
+|CUU/Epic|1. Gestión de Clientes y Pedidos|
 
 
 ### Alcance Adicional Voluntario
@@ -48,5 +57,5 @@ Adicionales para Aprobación
 |:-|:-|
 |Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
 |CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Otros|1. Impresion por PDF|
 
