@@ -30,9 +30,9 @@ Con enfoque en una experiencia de usuario sencilla .
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD de Clientes: manejo de datos de clientes (nombre, email, teléfono, etc.).
-             2. CRUD de Productos: gestión de productos (nombre, precio, stock, etc.).
-             3. CRUD de Usuarios: creación, autenticación y gestión de roles (Admin, Vendedor, Cliente).
+|CRUD simple|1. CRUD de Clientes: manejo de datos de clientes (nombre, email, teléfono, etc.).|
+             2. CRUD de Productos: gestión de productos (nombre, precio, stock, etc.).|
+             3. CRUD de Usuarios: creación, autenticación y gestión de roles (Admin, Vendedor, Cliente).|
              4. CRUD de Pedidos: registro de pedidos realizados por los clientes, incluyendo productos seleccionados.|
 |CRUD dependiente|1. CRUD Líneas de Pedido:  {depende de} CRUD Pedidos.2. CRUD Pedidos  {depende de} CRUD Clientes y  CRUD Productos.|
 |Listado + detalle| 1. Listado de Clientes: filtro por nombre o email, muestra un listado de clientes.2. Listado de Productos: filtro por nombre o precio, muestra productos disponibles.3. Listado de Pedidos: filtro por fecha y estado, muestra los pedidos realizados.|
