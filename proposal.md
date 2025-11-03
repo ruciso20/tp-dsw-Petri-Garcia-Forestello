@@ -17,7 +17,7 @@ Permite gestionar usuarios, productos, realizar pedidos y consultar el historial
 Con enfoque en una experiencia de usuario sencilla .
 
 ### Modelo
-[![imagen del modelo](file:///home/peto/Descargas/tp-dsw.svg)](https://mermantic.net/share.html?id=027369a228239539)
+https://mermantic.net/share.html?id=027369a228239539
 
 ## Alcance Funcional 
 
