@@ -26,7 +26,7 @@ https://mermantic.net/share.html?id=027369a228239539
 Regularidad:
 | Req | Detalle |
 |:---|:---|
-| CRUD simple | 1. **CRUD de Clientes**: manejo de datos de clientes (nombre, email, teléfono, etc.).<br>2. **CRUD de Productos**: gestión de productos (nombre, precio, stock, etc.).<br>3. **CRUD de Usuarios**: creación, autenticación y gestión de roles (Admin, Vendedor, Cliente).<br>4. **CRUD de Pedidos**: registro de pedidos realizados por los clientes, incluyendo productos seleccionados. |
+| CRUD simple | 1. **CRUD de Clientes**: manejo de datos de clientes (nombre, email, teléfono, etc.).<br>2. **CRUD de Productos**: gestión de productos (nombre, precio, stock, etc.).<br>3. **CRUD de Usuarios**: creación, autenticación y gestión de roles (Admin, Vendedor, Cliente).<br>4. **CRUD de Pedidos**: registro de pedidos realizados por los clientes, incluyendo productos seleccionados.<br>5. **CRUD de Roles**: manejo de permisos que tiene un usuario en el sistema |
 | CRUD dependiente | 1. **CRUD Líneas de Pedido**: {depende de} CRUD Pedidos.<br>2. **CRUD Pedidos**: {depende de} CRUD Clientes y CRUD Productos. |
 | Listado + detalle | 1. **Listado de Clientes**: filtro por nombre o email, muestra un listado de clientes.<br>2. **Listado de Productos**: filtro por nombre o precio, muestra productos disponibles.<br>3. **Listado de Pedidos**: filtro por fecha y estado, muestra los pedidos realizados. |
 | CUU/Epic | 1. **Gestión de Clientes y Pedidos** |
@@ -35,6 +35,6 @@ Regularidad:
 Adicionales para Aprobación
 | Req | Detalle |
 |:---|:---|
-|CRUD |1. **CRUD de Roles**: manejo de permisos que tiene un usuario en el sistema|
+|CRUD ||
 |CUU/Epic||
 |Otros|1. Impresion por PDF|
