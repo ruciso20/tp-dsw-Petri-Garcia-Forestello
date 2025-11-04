@@ -31,6 +31,9 @@ Regularidad:
 | Listado + detalle | 1. **Listado de Clientes**: filtro por nombre o email, muestra un listado de clientes.<br>2. **Listado de Productos**: filtro por nombre o precio, muestra productos disponibles.<br>3. **Listado de Pedidos**: filtro por fecha y estado, muestra los pedidos realizados. |
 | CUU/Epic | 1. **Gestión de Clientes y Pedidos** |
 
+Tambien, contamos con Endpoints de lookup para busquedas, listados para selects:
+**Locations**
+****
 
 Adicionales para Aprobación
 | Req | Detalle |
