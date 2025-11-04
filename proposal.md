@@ -35,6 +35,6 @@ Regularidad:
 Adicionales para Aprobación
 | Req | Detalle |
 |:---|:---|
-|CRUD ||
+|CRUD |1. **CRUD de Roles**: manejo de permisos que tiene un usuario en el sistema|
 |CUU/Epic||
 |Otros|1. Impresion por PDF|
